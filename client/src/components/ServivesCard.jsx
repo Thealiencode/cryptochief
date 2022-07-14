@@ -1,6 +1,6 @@
 
 const ServivesCard = ({color, title, icon, subtitle}) => (
-    <div className="flex flex-row justify-between items-center w-full p-3 m-2 cursor-pointer hover:shadow-xl">
+    <div className="flex sm:flex-col md:flex-row justify-between items-center w-full p-3 m-2 cursor-pointer hover:shadow-xl">
     
         <div className={`w-64`}> 
         <img src={icon} alt="" />
