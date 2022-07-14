@@ -42,7 +42,7 @@ const Welcome = () => {
               <Input placeholder="Address to" name="addressTo" type="text" handleChange={handleChange} />
               <Input placeholder="Amount of (ETH)" name="amount"  type="number" handleChange={handleChange} />
               <Input placeholder="Keyword (GIF)" name="keyword"  type="text" handleChange={handleChange} />
-              git remote add origin https://github.com/Thealiencode/cryptochief.git          <Input placeholder="Enter Message" name="message"  type="text" handleChange={handleChange} />
+              <Input placeholder="Enter Message" name="message"  type="text" handleChange={handleChange} />
 
               <div className="h-[1px] w-full bg-gray-400 my-2" />
 
@@ -60,4 +60,4 @@ const Welcome = () => {
   )
 }
 
-export default Welcome
+export default Welcome 
